@@ -57,7 +57,7 @@ function CertificateCard({ index, title, subtitle, desc, regNo, icon: Icon }: Ce
       className="bg-white border border-industrial-border hover:border-industrial-orange/30 chamfer-card industrial-corners p-6 md:p-8 relative overflow-hidden group flex flex-col justify-between min-h-[300px] transition-all duration-300 shadow-sm hover:shadow-md"
     >
       {/* Gloss reflection overlay */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-industrial-orange/[0.02] to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-industrial-orange/[0.02] to-white/0 opacity-75 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
       <div>
         <div className="flex justify-between items-center mb-6">
